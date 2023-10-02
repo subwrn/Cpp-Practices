@@ -1,1 +1,1 @@
-Officially Checked Output & issues with code and published here this repo is own my Subarna Katwal, Feel free to seek guidance and send pull request Only C++ Projects in this repo You can check other repo according to your need : THANKYOU!
+Officially Checked Output & issues with code and published here this repo is own my Subarna Katwal, Feel free to seek guidance and send pull request Only C++ codes in this repo You can check other repo according to your need : THANKYOU!
