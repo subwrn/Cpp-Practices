@@ -1,21 +1,14 @@
-#include <iostream>
-#include <string>
+#include<iostream>
 using namespace std;
-
-int main() {
-    string alpha = "gamamamamama";
-    int n = 5;
-
-    while (n > 0) {
-        size_t pos = alpha.find("ma");
-        if (pos != string::npos) {
-            alpha.erase(pos, 2);
-        } else {
-            break; // Exit the loop when "ma" is no longer found
-        }
-        n--;
-    }
-
-    cout << alpha;
+#include<array>
+#include<cstdlib>
+#include<ctime>
+int main()
+{
+   std::srand(std::time(0));
+    int vermilion[9]={20,30,20,9,30,30,20,30};
+    int vermilionSize = sizeof(vermilion) / sizeof(vermilion[0]);
+    int random = rand() % vermilionSize;
+    cout<<vermilion[random];
     return 0;
 }
